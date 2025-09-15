@@ -1,6 +1,6 @@
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import { Card } from "@/components/ui/card";
-import { Wallet, Shield } from "lucide-react";
+import { Wallet, Lock } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface WalletConnectProps {
@@ -22,7 +22,7 @@ export const WalletConnect = ({ className }: WalletConnectProps) => {
             </p>
           </div>
           <div className="flex items-center justify-center gap-2 text-sm text-privacy">
-            <Shield className="w-4 h-4" />
+            <Lock className="w-4 h-4" />
             <span>Fully Homomorphic Encryption</span>
           </div>
         </div>
